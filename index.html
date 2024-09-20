@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bench Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bench Management Dashboard</h1>
+
+    <section id="person-section">
+        <h2>Personas en Bench</h2>
+        <ul id="person-list"></ul>
+    </section>
+
+    <section id="project-section">
+        <h2>Posibles Oportunidades</h2>
+        <ul id="project-list"></ul>
+    </section>
+
+    <section id="new-entry">
+        <h2>Añadir Nueva Información</h2>
+        <form id="add-form">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="role">Rol:</label><br>
+            <input type="text" id="role" name="role"><br><br>
+            <label for="status">Estatus:</label><br>
+            <input type="text" id="status" name="status"><br><br>
+            <button type="submit">Añadir</button>
+        </form>
+    </section>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
